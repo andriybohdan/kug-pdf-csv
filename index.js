@@ -1,7 +1,7 @@
 const fs = require('fs');
 const { createArrayCsvWriter } = require('csv-writer');
 
-const inputFilePath = '1.txt'; // Path to your input .txt file
+const inputFilePath = 'input.txt'; // Path to your input .txt file
 const outputFilePath = 'output.csv';
 
 // Set up the CSV writer with the columns you want to capture
